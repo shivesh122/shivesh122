@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" width="300" alt="logo">
+  <img src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" alt="logo">
 </p>
 
 # 💫 About Me:
