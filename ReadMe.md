@@ -1,5 +1,5 @@
 <p align="center">
-    <source src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" autoplay>
+    <source src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif">
 </p>
 
 
