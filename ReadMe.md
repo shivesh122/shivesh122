@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" alt="logo">
+  <video  autoplay loop muted>
+    <source src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" type="video/mp4">
+  </video>
 </p>
+
 
 # 💫 About Me:
 🛠 I’m currently working on data analytics and Python-based automation projects<br>🤝 I’m looking to collaborate on open-source data engineering and machine learning tools<br>💡 I’m looking for help with optimizing SQL queries and large-scale data processing<br>🌱 I’m currently learning advanced SQL, cloud data pipelines, and deep learning<br>💬 Ask me about Python, Pandas, data visualization, or beginner-friendly ML models<br>⚡ Fun fact I can turn messy data into beautiful insights faster than I can make coffee
