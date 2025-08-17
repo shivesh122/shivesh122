@@ -1,8 +1,4 @@
-<p>
-  <video width="300" autoplay loop muted>
-    <source src="https://github.com/shivesh122/shivesh122/blob/main/ezgif-1c1f0eb6e3b4d9.mp4" type="mp4">
-  </video>
-</p>
+![logo](https://github.com/shivesh122/shivesh122/blob/main/ho.gif)
 
 
 # 💫 About Me:
