@@ -1,4 +1,4 @@
-![logo](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*0N8CVKix7OGfBDsgh9DzrQ.gif)
+![logo](https://github.com/shivesh122/shivesh122/1_0N8CVKix7OGfBDsgh9DzrQ-ezgif.com-overlay.gif)
 # 💫 About Me:
 🛠 I’m currently working on data analytics and Python-based automation projects<br>🤝 I’m looking to collaborate on open-source data engineering and machine learning tools<br>💡 I’m looking for help with optimizing SQL queries and large-scale data processing<br>🌱 I’m currently learning advanced SQL, cloud data pipelines, and deep learning<br>💬 Ask me about Python, Pandas, data visualization, or beginner-friendly ML models<br>⚡ Fun fact I can turn messy data into beautiful insights faster than I can make coffee
 
