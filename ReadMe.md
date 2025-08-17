@@ -1,7 +1,5 @@
 <p align="center">
-  <video  autoplay loop muted>
-    <source src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" type="video/mp4">
-  </video>
+    <source src="https://github.com/shivesh122/shivesh122/blob/main/hello1.gif" autoplay>
 </p>
 
 
