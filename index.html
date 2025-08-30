@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personalized Notify — Demo</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; padding: 24px; max-width: 760px; margin: auto; }
+    button { padding: 10px 14px; border-radius: 8px; border: none; cursor: pointer; background: #2563eb; color: white; }
+    input, select { padding: 8px; border-radius: 6px; border: 1px solid #ddd; }
+    pre { background: #f7f7f8; padding: 12px; border-radius: 8px; overflow:auto; }
+    header h1 { margin: 0 0 8px 0; font-size: 20px; }
+    .row { display:flex; gap:8px; align-items:center; margin-bottom:12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Personalized Notification Demo</h1>
+    <p>Simulated notifications. Deploy to Vercel and use the built-in Cron to trigger automatic runs.</p>
+  </header>
+
+  <div class="row">
+    <label for="user">User id (optional):</label>
+    <input id="user" placeholder="e.g. shivesh" />
+    <label for="send">Simulate send:</label>
+    <select id="send">
+      <option value="false">No (just list)</option>
+      <option value="true">Yes (log send)</option>
+    </select>
+    <button id="run">Run</button>
+  </div>
+
+  <section>
+    <h3>Result</h3>
+    <pre id="out">No requests yet.</pre>
+  </section>
+
+  <script>
+    const out = document.getElementById('out');
+    document.getElementById('run').addEventListener('click', async () => {
+      const user = document.getElementById('user').value.trim();
+      const send = document.getElementById('send').value;
+      const q = new URLSearchParams();
+      if (user) q.set('user', user);
+      if (send) q.set('send', send);
+      const url = '/api/notify?' + q.toString();
+      out.textContent = 'Loading...';
+      try {
+        const r = await fetch(url);
+        const j = await r.json();
+        out.textContent = JSON.stringify(j, null, 2);
+      } catch (e) {
+        out.textContent = 'Error: ' + e.message;
+      }
+    });
+  </script>
+
+  <hr/>
+  <section>
+    <h4>Quick notes</h4>
+    <ul>
+      <li>The Cron in <code>vercel.json</code> runs daily at <strong>09:00 IST</strong> (see comment in file).</li>
+      <li>To test cron locally, use the UI button or call <code>/api/notify</code> directly.</li>
+      <li>This demo simulates sending by logging; integrate FCM/Email/SMS by replacing the console.log in <code>api/notify.js</code>.</li>
+    </ul>
+  </section>
+</body>
+</html>
