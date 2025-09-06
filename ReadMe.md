@@ -12,6 +12,10 @@
 # 💫 About Me:
 🛠 I’m currently working on data analytics and Python-based automation projects<br>🤝 I’m looking to collaborate on open-source data engineering and machine learning tools<br>💡 I’m looking for help with optimizing SQL queries and large-scale data processing<br>🌱 I’m currently learning advanced SQL, cloud data pipelines, and deep learning<br>💬 Ask me about Python, Pandas, data visualization, or beginner-friendly ML models<br>⚡ Fun fact I can turn messy data into beautiful insights faster than I can make coffee
 
+* <picture> <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.webp" type="image/webp"> <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.gif" alt="🌍" width="28" height="28"></picture>  I'm based in India
+* <picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.gif" alt="💡" width="28" height="28"></picture>  I'm learning different languages and frameworks
+<br />
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shivesh.tiwari.0) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Shivesh--tiwari) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nikutiwari70@gmail.com) 
